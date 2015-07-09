@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Wristmotion</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_export">export</string>
+    <string name="action_about">about</string>
+
+    <string name="tag">tag</string>
+    <string name="Vw">Waiting for sensor input from a wearable..</string>
+    <string name="tV3">Open Source Projects</string>
+    <string name="tV2">Source Code</string>
+    <string name="tV1">App Development</string>
+
+    <string name="sensor1">Sensor 1</string>
+    <string name="sensor2">Sensor 2</string>
+    <string name="sensor3">Sensor 3</string>
+    <string name="sensor4">Sensor 4</string>
+    <string name="sensor5">Sensor 5</string>
+    <string name="sensor6">Sensor 6</string>
+
+    <string name="wristmotion">Wristmotion</string>
+
+    <string name="export_bt1">Export data to CSV</string>
+    <string name="export_bt2">Export tags to CSV</string>
+    <string name="export_bt3">Delete stored data</string>
+
+    <string name="sensor">sensor</string>
+    <string name="textview1">New Text</string>
+
+
+</resources>
