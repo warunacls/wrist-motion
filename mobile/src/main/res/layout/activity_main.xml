@@ -1,3 +1,4 @@
+
 <android.support.v4.widget.DrawerLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -5,7 +6,6 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="false" >
 
-    <!-- Your normal content view -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -77,9 +77,10 @@
 
 
         </LinearLayout>
-
-
     </LinearLayout>
+
+
+
 
 
     <android.support.design.widget.NavigationView
@@ -90,3 +91,4 @@
         app:headerLayout="@layout/drawer_layout"/>
 
 </android.support.v4.widget.DrawerLayout>
+

@@ -28,6 +28,8 @@ import io.realm.RealmResults;
 
 import wristmotion.scorelab.org.wristmotion.Data.data;
 import wristmotion.scorelab.org.wristmotion.DataHandler.TagData;
+import wristmotion.scorelab.org.wristmotion.SensorManager;
+
 import android.R;
 
 

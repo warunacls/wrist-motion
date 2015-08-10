@@ -8,7 +8,10 @@ import android.test.ApplicationTestCase;
  */
 public class ApplicationTest extends ApplicationTestCase<Application> {
     public ApplicationTest() {
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
         super(Application.class);
     }
 }

@@ -13,32 +13,38 @@
 
 
         <activity
-            android:name="wristmotion.scorelab.org.wristmotion.Handler.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
 
+
         <activity
-            android:name="wristmotion.scorelab.org.wristmotion.Handler.Fragment"
+            android:name=".Fragment"
             android:label="@string/action_about">
         </activity>
 
 
         <activity
-            android:name="wristmotion.scorelab.org.wristmotion.Handler.Export"
+            android:name=".Handler.Export"
 
             android:label="@string/action_export">
         </activity>
 
-                <service android:name="wristmotion.scorelab.org.wristmotion.Handler.SensorTransmission">
+                <service android:name=".SensorTransmission">
+
                     <intent-filter>
                         <action
                             android:name="com.google.android.gms.wearable.BIND_LISTENER" />
                     </intent-filter>
+
                 </service>
 
     </application>
